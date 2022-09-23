@@ -14,7 +14,7 @@ const NavBar = () => {
   return (
     <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192f] text-gray-300">
       <div>
-        <p>logo</p>
+        <p>ST</p>
       </div>
       {/* DESKTOP MENU */}
       <ul className="hidden md:flex">
