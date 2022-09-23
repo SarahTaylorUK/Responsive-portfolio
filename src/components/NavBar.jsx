@@ -1,8 +1,9 @@
 import React from "react";
 import { FaBars, FaTimes, FaGithub, FaLinkedin } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
-import {BsFillPersonLinesFill} from 'react-icons/bs'
+import { BsFillPersonLinesFill } from "react-icons/bs";
 import { useState } from "react";
+import { Link } from "react-scroll";
 
 const NavBar = () => {
   const [nav, setNav] = useState(false);
@@ -12,20 +13,42 @@ const NavBar = () => {
   };
 
   return (
-    <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192f] text-gray-300">
-      <div>
-        <p>ST</p>
-      </div>
+    <div className="fixed w-full h-[80px] flex justify-end items-center px-4 bg-[#0a192f] text-gray-300">
       {/* DESKTOP MENU */}
       <ul className="hidden md:flex">
-        <li>Home</li>
-        <li>About</li>
-        <li>Projects</li>
-        <li>Contact</li>
+        <li>
+          <Link to="home" smooth={true} duration={500}>
+            Home
+          </Link>
+        </li>
+        <li>
+          {" "}
+          <Link to="about" smooth={true} duration={500}>
+            About
+          </Link>
+        </li>
+        <li>
+          {" "}
+          <Link to="tech" smooth={true} duration={500}>
+            Tech
+          </Link>
+        </li>
+        <li>
+          {" "}
+          <Link to="projects" smooth={true} duration={500}>
+            Projects
+          </Link>
+        </li>
+        <li>
+          {" "}
+          <Link to="contact" smooth={true} duration={500}>
+            Contact
+          </Link>
+        </li>
       </ul>
       {/* HAMBURGER */}
       <div onClick={handleClick} className="md:hidden z-10">
-        {!nav ? <FaBars /> : <FaTimes />}
+        {!nav ? <FaBars className="hover:cursor-pointer"/> : <FaTimes className="hover:cursor-pointer"/>}
       </div>
       {/* MOBILE MENU */}
       <ul
@@ -35,10 +58,36 @@ const NavBar = () => {
             : "absolute top-0 left-0 w-full h-screen bg-[#0a192f] flex flex-col justify-center items-center"
         }
       >
-        <li className="py-6 text-4xl">Home</li>
-        <li className="py-6 text-4xl">About</li>
-        <li className="py-6 text-4xl">Projects</li>
-        <li className="py-6 text-4xl">Contact</li>
+        <li className="py-6 text-4xl">
+          {" "}
+          <Link onClick={handleClick} to="home" smooth={true} duration={500}>
+            Home
+          </Link>
+        </li>
+        <li className="py-6 text-4xl">
+          {" "}
+          <Link onClick={handleClick} to="about" smooth={true} duration={500}>
+            About
+          </Link>
+        </li>
+        <li className="py-6 text-4xl">
+          {" "}
+          <Link onClick={handleClick} to="tech" smooth={true} duration={500}>
+            Tech
+          </Link>
+        </li>
+        <li className="py-6 text-4xl">
+          {" "}
+          <Link onClick={handleClick} to="projects" smooth={true} duration={500}>
+            Projects
+          </Link>
+        </li>
+        <li className="py-6 text-4xl">
+          {" "}
+          <Link onClick={handleClick} to="contact" smooth={true} duration={500}>
+            Contact
+          </Link>
+        </li>
       </ul>
 
       {/* CONTACTS */}
