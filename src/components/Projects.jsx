@@ -10,7 +10,7 @@ const Projects = () => {
     >
       <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full">
         <div className="pb-8">
-          <p className="text-4xl font-bold inline border-b-4 border-pink-600">
+          <p className="text-4xl font-bold inline border-b-4 border-[#c3fc3d]">
             Projects
           </p>
           <p className="py-6">Here are some of my recent projects...</p>
@@ -23,7 +23,7 @@ const Projects = () => {
           {/* CARD CONTAINER */}
           <div style={{ backgroundImage: `url(${News})` }} className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div">
             {/* HOVER */}
-            <div className="opacity-0 group-hover:opacity-100">
+            <div className="opacity-0 group-hover:opacity-100 text-center">
               <span className="text-2xl font-bold text-white tracking-wider">
                 News API
               </span>
@@ -43,7 +43,7 @@ const Projects = () => {
           </div>
           <div style={{ backgroundImage: `url(${BePresent})` }} className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div">
             {/* HOVER */}
-            <div className="opacity-0 group-hover:opacity-100">
+            <div className="opacity-0 group-hover:opacity-100 text-center">
               <span className="text-2xl font-bold text-white tracking-wider">
                 Be Present
               </span>
@@ -63,7 +63,7 @@ const Projects = () => {
           </div>
           <div style={{ backgroundImage: `url(${PortfolioTailwind})` }} className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div">
             {/* HOVER */}
-            <div className="opacity-0 group-hover:opacity-100">
+            <div className="opacity-0 group-hover:opacity-100 text-center">
               <span className="text-2xl font-bold text-white tracking-wider">
                 Portfolio
               </span>

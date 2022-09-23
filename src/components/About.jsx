@@ -4,7 +4,7 @@ const About = () => {
       <div className="flex flex-col justify-center items-center w-full h-full">
         <div className="max-w-[1000px] w-full grid grid-cols-2 gap-8">
           <div className="sm:text-right pb-8 pl-4">
-            <p className="text-4xl font-bold inline border-b-4 border-pink-600">
+            <p className="text-4xl font-bold inline border-b-4 border-[#c3fc3d]">
               About
             </p>
           </div>
@@ -12,10 +12,25 @@ const About = () => {
         </div>
         <div className="max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4">
           <div className="sm:text-right text-4xl font-bold">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <p>Junior Developer and recent graduate of Northcoders</p>
           </div>
           <div>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non aperiam cum incidunt esse sequi fugiat eligendi temporibus sunt, enim omnis alias libero. Ullam, blanditiis! Explicabo, vero suscipit. Exercitationem, laborum beatae!</p>
+            <p>
+              {" "}
+              I developed a passion for coding seeing what tech can achieve when
+              utilised in my previous roles as a researcher.
+            </p>
+            <p>
+              Solving logic problems and implementing neat solutions motivated
+              me to start coding in 2021, with an introductory python course.
+              Finally, I took the leap and accepted a scholarship for
+              Northcoders software development course, which I loved!
+            </p>
+            <p>
+              {" "}
+              I love to learn, and am excited to maintain the momentum in a new
+              role following Northcoders.{" "}
+            </p>
           </div>
         </div>
       </div>

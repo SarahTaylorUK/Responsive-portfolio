@@ -8,7 +8,7 @@ const Contact = () => {
       {/* CONTAINER */}
       <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full">
         <div>
-          <p className="text-4xl font-bold inline border-b-4 border-pink-600">
+          <p className="text-4xl font-bold inline border-b-4 border-[#c3fc3d]">
             Get in touch
           </p>
           <p className="py-4">
@@ -24,22 +24,22 @@ const Contact = () => {
                 href="https://www.linkedin.com/in/sarah-taylor-19068413b/"
                 className="flex justify-between items-center w-full text-gray-300"
               >
-                <FaLinkedin size={50} className="hover:text-gray-700 duration-200"/>
+                <FaLinkedin size={50} className="hover:text-[#c3fc3d] duration-200"/>
               </a>
             </li>
             <li>
               <a href="https://github.com/SarahADev">
-                <FaGithub size={50} className="hover:text-gray-700 duration-200"/>
+                <FaGithub size={50} className="hover:text-[#c3fc3d] duration-200"/>
               </a>
             </li>
             <li>
               <a href="mailto:sarah.alexandra12@gmail.com">
-                <HiOutlineMail size={50} className="hover:text-gray-700 duration-200"/>
+                <HiOutlineMail size={50} className="hover:text-[#c3fc3d] duration-200"/>
               </a>
             </li>
             <li>
               <a href="mailto:sarah.alexandra12@gmail.com">
-                <BsFillPersonLinesFill size={50} className="hover:text-gray-700 duration-200"/>
+                <BsFillPersonLinesFill size={50} className="hover:text-[#c3fc3d] duration-200"/>
               </a>
             </li>
           </ul>
