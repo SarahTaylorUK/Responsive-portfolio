@@ -1,5 +1,4 @@
 import News from "../assets/news-site.png";
-import PortfolioSimple from "../assets/portfolio-simple.png";
 import BePresent from "../assets/be-present.png";
 import PortfolioTailwind from "../assets/portfolio-tailwind.png";
 
