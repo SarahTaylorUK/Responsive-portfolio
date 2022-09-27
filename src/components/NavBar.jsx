@@ -48,7 +48,11 @@ const NavBar = () => {
       </ul>
       {/* HAMBURGER */}
       <div onClick={handleClick} className="md:hidden z-10">
-        {!nav ? <FaBars className="hover:cursor-pointer"/> : <FaTimes className="hover:cursor-pointer"/>}
+        {!nav ? (
+          <FaBars className="hover:cursor-pointer" />
+        ) : (
+          <FaTimes className="hover:cursor-pointer" />
+        )}
       </div>
       {/* MOBILE MENU */}
       <ul
@@ -78,7 +82,12 @@ const NavBar = () => {
         </li>
         <li className="py-6 text-4xl">
           {" "}
-          <Link onClick={handleClick} to="projects" smooth={true} duration={500}>
+          <Link
+            onClick={handleClick}
+            to="projects"
+            smooth={true}
+            duration={500}
+          >
             Projects
           </Link>
         </li>
@@ -97,6 +106,8 @@ const NavBar = () => {
             <a
               href="https://www.linkedin.com/in/sarah-taylor-19068413b/"
               className="flex justify-between items-center w-full text-gray-300"
+              target="_blank"
+              rel="noopener noreferrer"
             >
               LinkedIn <FaLinkedin size={30} />
             </a>
@@ -105,6 +116,8 @@ const NavBar = () => {
             <a
               href="https://github.com/SarahADev"
               className="flex justify-between items-center w-full text-gray-300"
+              target="_blank"
+              rel="noopener noreferrer"
             >
               Github <FaGithub size={30} />
             </a>
@@ -113,14 +126,18 @@ const NavBar = () => {
             <a
               href="mailto:sarah.alexandra12@gmail.com"
               className="flex justify-between items-center w-full text-gray-300"
+              target="_blank"
+              rel="noopener noreferrer"
             >
               Email <HiOutlineMail size={30} />
             </a>
           </li>
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-900">
             <a
-              href="mailto:sarah.alexandra12@gmail.com"
               className="flex justify-between items-center w-full text-gray-300"
+              href="https://docs.google.com/document/d/1gutjAnCx8X_INL3Xy8rw6qbarJd1Pg3x-PlNNlZXswk/edit?usp=sharing"
+              target="_blank"
+              rel="noopener noreferrer"
             >
               CV <BsFillPersonLinesFill size={30} />
             </a>
