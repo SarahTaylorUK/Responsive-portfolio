@@ -23,23 +23,49 @@ const Contact = () => {
               <a
                 href="https://www.linkedin.com/in/sarah-taylor-19068413b/"
                 className="flex justify-between items-center w-full text-gray-300"
+                target="_blank"
+                rel="noopener noreferrer"
               >
-                <FaLinkedin size={50} className="hover:text-[#c3fc3d] duration-200"/>
+                <FaLinkedin
+                  size={50}
+                  className="hover:text-[#c3fc3d] duration-200"
+                />
               </a>
             </li>
             <li>
-              <a href="https://github.com/SarahADev">
-                <FaGithub size={50} className="hover:text-[#c3fc3d] duration-200"/>
+              <a
+                href="https://github.com/SarahADev"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <FaGithub
+                  size={50}
+                  className="hover:text-[#c3fc3d] duration-200"
+                />
               </a>
             </li>
             <li>
-              <a href="mailto:sarah.alexandra12@gmail.com">
-                <HiOutlineMail size={50} className="hover:text-[#c3fc3d] duration-200"/>
+              <a
+                href="mailto:sarah.alexandra12@gmail.com"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <HiOutlineMail
+                  size={50}
+                  className="hover:text-[#c3fc3d] duration-200"
+                />
               </a>
             </li>
             <li>
-              <a href="mailto:sarah.alexandra12@gmail.com">
-                <BsFillPersonLinesFill size={50} className="hover:text-[#c3fc3d] duration-200"/>
+              <a
+                href="https://docs.google.com/document/d/1gutjAnCx8X_INL3Xy8rw6qbarJd1Pg3x-PlNNlZXswk/edit?usp=sharing"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <BsFillPersonLinesFill
+                  size={50}
+                  className="hover:text-[#c3fc3d] duration-200"
+                />
               </a>
             </li>
           </ul>
