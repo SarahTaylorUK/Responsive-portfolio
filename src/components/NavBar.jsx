@@ -104,7 +104,7 @@ const NavBar = () => {
         <ul>
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-600">
             <a
-              href="https://www.linkedin.com/in/sarah-taylor-19068413b/"
+              href="https://www.linkedin.com/in/sarah-taylor-swe/"
               className="flex justify-between items-center w-full text-gray-300"
               target="_blank"
               rel="noopener noreferrer"

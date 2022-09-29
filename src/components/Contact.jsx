@@ -21,7 +21,7 @@ const Contact = () => {
           <ul className="flex">
             <li>
               <a
-                href="https://www.linkedin.com/in/sarah-taylor-19068413b/"
+                href="https://www.linkedin.com/in/sarah-taylor-swe/"
                 className="flex justify-between items-center w-full text-gray-300"
                 target="_blank"
                 rel="noopener noreferrer"
