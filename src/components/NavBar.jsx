@@ -1,10 +1,8 @@
 import React from "react";
 import { FaBars, FaTimes, FaGithub, FaLinkedin } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
-import { BsFillPersonLinesFill } from "react-icons/bs";
 import { useState } from "react";
 import { Link } from "react-scroll";
-import CV from "../assets/SarahTaylorCV.pdf";
 
 const NavBar = () => {
   const [nav, setNav] = useState(false);
@@ -115,7 +113,7 @@ const NavBar = () => {
           </li>
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-900">
             <a
-              href="https://github.com/SarahADev"
+              href="https://github.com/SarahTaylorUK/"
               className="flex justify-between items-center w-full text-gray-300"
               target="_blank"
               rel="noopener noreferrer"
@@ -131,15 +129,6 @@ const NavBar = () => {
               rel="noopener noreferrer"
             >
               Email <HiOutlineMail size={30} />
-            </a>
-          </li>
-          <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-900">
-            <a
-              className="flex justify-between items-center w-full text-gray-300"
-              href={CV}
-              download = "SarahTaylorCV.pdf"
-            >
-              CV <BsFillPersonLinesFill size={30} />
             </a>
           </li>
         </ul>

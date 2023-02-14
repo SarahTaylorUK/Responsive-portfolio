@@ -1,7 +1,5 @@
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
-import { BsFillPersonLinesFill } from "react-icons/bs";
-import CV from "../assets/SarahTaylorCV.pdf";
 
 const Contact = () => {
   return (
@@ -35,7 +33,7 @@ const Contact = () => {
             </li>
             <li>
               <a
-                href="https://github.com/SarahADev"
+                href="https://github.com/SarahTaylorUK/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -52,17 +50,6 @@ const Contact = () => {
                 rel="noopener noreferrer"
               >
                 <HiOutlineMail
-                  size={50}
-                  className="hover:text-[#c3fc3d] duration-200"
-                />
-              </a>
-            </li>
-            <li>
-              <a
-                href={CV}
-                download = "SarahTaylorCV.pdf"
-              >
-                <BsFillPersonLinesFill
                   size={50}
                   className="hover:text-[#c3fc3d] duration-200"
                 />

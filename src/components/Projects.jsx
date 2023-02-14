@@ -38,7 +38,7 @@ const Projects = () => {
                   </button>
                 </a>
                 <a
-                  href="https://github.com/SarahADev/FE-news_ST"
+                  href="https://github.com/SarahTaylorUK/FE-news_ST"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -69,7 +69,7 @@ const Projects = () => {
                   </button>
                 </a>
                 <a
-                  href="https://github.com/SarahADev/BE-BePresent"
+                  href="https://github.com/SarahTaylorUK/BE-BePresent"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -100,7 +100,7 @@ const Projects = () => {
                   </button>
                 </a>
                 <a
-                  href="https://github.com/SarahADev/Responsive-portfolio"
+                  href="https://github.com/SarahTaylorUK/Responsive-portfolio"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
