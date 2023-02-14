@@ -12,7 +12,7 @@ const About = () => {
         </div>
         <div className="max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4">
           <div className="sm:text-right text-4xl font-bold">
-            <p>Junior Developer and Northcoders graduate</p>
+            <p>Junior FullStack Developer</p>
           </div>
           <div>
             <p>
@@ -24,12 +24,12 @@ const About = () => {
               Solving logic problems and implementing neat solutions motivated
               me to start coding in 2021, with an introductory python course.
               Finally, I took the leap and accepted a scholarship for
-              Northcoders software development course, which I loved!
+              Northcoders software development course.
             </p>
             <p>
               {" "}
-              I love to learn, and am excited to maintain the momentum in a new
-              role following Northcoders.{" "}
+              I love to learn, and am excited to maintain the momentum in my new
+              role as FullStack Javascript Developer at Informa.{" "}
             </p>
           </div>
         </div>
